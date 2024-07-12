@@ -1,0 +1,45 @@
+.title {
+    color: #CA6C37;
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+}
+
+.subTitle {
+    color: #422398;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.linha {
+    width: 200px;
+    height: 2px;
+    background: #422398;
+}
+
+.fontSize {
+    font-size: 18px;
+}
+
+.backButton {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    color: #CA6C37;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.backButton:hover {
+    text-decoration: underline;
+    color: #CA6C37;
+}
